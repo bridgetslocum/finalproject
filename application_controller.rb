@@ -4,7 +4,12 @@ require './models/model.rb'
 
 class MyApp < Sinatra::Base
 
-  get '/' do
+  get '/' do 
+    erb :homepage 
+  end 
+  
+  
+  get '/pick-recipe' do
     erb :index
   end
 

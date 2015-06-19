@@ -1,6 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+@import "bootstrap";
+
 body {
   background-color: #99CCFF;
-  font: verdana;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #header{
@@ -28,15 +31,95 @@ body {
   padding-left: 0px;
   padding-top: 10px; 
   padding-bottom: 0px; 
-  font-family: veranda; 
+  font-family: 'Josefin Sans', sans-serif; 
   font-size: 25px;
   font-weight: Bold; 
   color: #FFFFFF;
   text-align: center
 }
 h3{
-  font-family: veranda;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: bold; 
   color: #FFFFFF; 
   text-align: center 
+}
+#homepage{
+  background-image: url("https://scontent-lga1-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/11393352_570357986439787_3442362257562880434_o.jpg"); 
+   background-size : 100% auto; 
+  font-family: 'Josefin Sans', sans-serif;
+  color: #FFFFFF;
+  font-size: 75px; 
+  Text-align: center
+}
+.btn {
+  font-weight: normal;
+  font-family: 'Josefin Sans', sans-serif;
+/*  text-transform: uppercase;*/
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.42857143;
+  border-radius: 2px;
+  border-width: 2px;
+}
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn-primary .badge {
+  color: #ffffff;
+  background-color: transparent;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  background: #FB589C ;
+  border-color: #fff;
+  color: #fff;
+}
+
+#radio {
+  display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
 }
