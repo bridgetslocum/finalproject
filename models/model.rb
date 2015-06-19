@@ -4,20 +4,20 @@ def dessert(flavour, time, dish)
     return [{
       :name => "Fruit Soup",
       :link => "http://www.recipe.com/fruit-soup/",
-      :image =>"http://www.recipe.com/images/fruit-soup-RU185904-ss.jpg"}, 
-      {
-        :name =>"Fruit Salad",
-       :link => "http://www.foodnetwork.com/recipes/trisha-yearwood/hawaiian-fresh-fruit-salad-recipe.html",
-       :image => "http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2013/6/7/0/YW0303_Hawaiian-fruit-salad_s4x3.jpg.rend.sni12col.landscape.jpeg" }]
+      :image =>"http://www.recipe.com/images/fruit-soup-RU185904-ss.jpg"}] 
+    return [{
+      :name =>"Fruit Salad",
+      :link => "http://www.foodnetwork.com/recipes/trisha-yearwood/hawaiian-fresh-fruit-salad-recipe.html",
+      :image => "http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2013/6/7/0/YW0303_Hawaiian-fruit-salad_s4x3.jpg.rend.sni12col.landscape.jpeg"}]
   elsif flavour == "Sweet" && time== "21-30" && dish== "cold"
     return [{
       :name => "Chocolate Mousse with Sauce",
       :link => "http://www.recipe.com/chocolate-mousse-with-sauce/", 
       :image => "http://www.recipe.com/images/chocolate-mousse-with-sauce-R081606-ss.jpg"}, 
-      {
-        :name => "Brown Butter Rum Cannoli",
-        :link => "http://www.bakersroyale.com/cookies/brown-butter-rum-cannoli/", 
-        :image => "http://www.bakersroyale.com/wp-content/uploads/2012/07/Brown-Butter-Rum-Cannoli-by-Bakers-Royale-copy1.jpg"}]
+    return [{
+      :name => "Brown Butter Rum Cannoli",
+      :link => "http://www.bakersroyale.com/cookies/brown-butter-rum-cannoli/", 
+      :image => "http://www.bakersroyale.com/wp-content/uploads/2012/07/Brown-Butter-Rum-Cannoli-by-Bakers-Royale-copy1.jpg"}]
   elsif flavour == "Sweet" && time =="31+" && dish =="cold"
     return [{
       :name => "Mint Ice Cream"
