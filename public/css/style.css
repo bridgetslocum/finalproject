@@ -22,3 +22,21 @@ body {
   font-size: 17px;
   color: #FF6699
 }
+.dessert{
+  float: left; 
+  padding-right: 25px;
+  padding-left: 0px;
+  padding-top: 10px; 
+  padding-bottom: 0px; 
+  font-family: veranda; 
+  font-size: 25px;
+  font-weight: Bold; 
+  color: #FFFFFF;
+  text-align: center
+}
+h3{
+  font-family: veranda;
+  font-weight: bold; 
+  color: #FFFFFF; 
+  text-align: center 
+}

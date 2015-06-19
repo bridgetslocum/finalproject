@@ -5,7 +5,9 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
   </head>
   <body>
-    <a target= _blank href="<%=@desserts[0][:link]%>"><img src="<%=@desserts[0][:image]%>" width="500" height="450" /></a> <%=@desserts[0][:name]%>
-  <a target= _blank href="<%=@desserts[1][:link]%>"><img src="<%=@desserts[1][:image]%>" width="500" height="450" /></a> <%=@desserts[1][:name]%>
+    <h3> Click on the picture for your recipe! </h2>
+    <%@desserts.each do |dessert|%> 
+    <div class="dessert"> <a target= _blank href="<%=dessert[:link]%>"><img src="<%=dessert[:image]%>" width="550" height="450" /></a> <p> <%=dessert[:name]%> </p> </div>
+    <%end%> 
   </body>
 </html>

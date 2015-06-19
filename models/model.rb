@@ -4,7 +4,7 @@ def dessert(flavour, time, dish)
     return [{
       :name => "Fruit Soup",
       :link => "http://www.recipe.com/fruit-soup/",
-      :image =>"http://www.recipe.com/images/fruit-soup-RU185904-ss.jpg"}] 
+      :image =>"http://www.recipe.com/images/fruit-soup-RU185904-ss.jpg"},
       {
       :name =>"Fruit Salad",
       :link => "http://www.foodnetwork.com/recipes/trisha-yearwood/hawaiian-fresh-fruit-salad-recipe.html",
@@ -29,7 +29,7 @@ def dessert(flavour, time, dish)
       :image => "http://farm6.static.flickr.com/5095/5441856067_a48fea8825_z.jpg"}]
   elsif flavour == "Sweet" && time =="10-20" && dish =="hot"
     return [{
-      :name => "Marchmallow and Peanut Butter Dessert",
+      :name => "Marshmallow and Peanut Butter Dessert",
       :link => "http://allrecipes.com/Recipe/Marshmallow-and-Peanut-Butter-Dessert/Detail.aspx?event8=1&prop24=SR_Thumb&e11=sweet%20desserts&e8=Quick%",
       :image => "http://images.media-allrecipes.com/userphotos/250x250/00/78/09/780924.jpg"},
       {
@@ -78,7 +78,7 @@ def dessert(flavour, time, dish)
       :link => "http://www.recipe.com/blogs/cooking/easy-french-macarons-with-salted-caramel-filling/",
       :image => "http://blogs.mydevstaging.com/blogs/cooking/files/2015/05/550_feat_macarons.jpg"},
       {
-      :name => "Lovely Lisas Sweet and Salty Caramel Popcorn",
+      :name => "Lovely Lisa's Sweet and Salty Caramel Popcorn",
       :link => "http://allrecipes.com/Recipe/Lovely-Lisas-Sweet-and-Salty-Caramel-Popcorn/Detail.aspx?event8=1&prop24=SR_Thumb&e11=salty%20deserts&e8=Quick%20Search&event10=1&e7=Home%20Page&soid=sr_results_p1i4",
       :image => "http://images.media-allrecipes.com/userphotos/250x250/01/10/03/1100387.jpg"}]
   elsif flavour == "Salty" && time =="10-20" && dish =="hot"
@@ -109,7 +109,10 @@ def dessert(flavour, time, dish)
         :link => "http://allrecipes.com/Recipe/Salted-Caramel-Pecan-Sticky-Buns/Detail.aspx?event8=1&prop24=SR_Thumb&e11=salty%20deserts&e8=Quick%20Search&event10=1&e7=Home%20Page&soid=sr_results_p1i15",
         :image => "http://images.media-allrecipes.com/userphotos/250x250/01/47/40/1474025.jpg"}]
   else 
-    return "Nothing found"
+    return [{
+        :name => "Nothing found. Try again!",
+        :link => "",
+        :image => "http://www.crossroadsdesigns.net/images/stories/Products/signs/dessert/NoToDesserts500-061-650.jpg"}]
   end
 end
 
